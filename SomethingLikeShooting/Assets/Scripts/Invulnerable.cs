@@ -6,13 +6,15 @@ public class Invulnerable : MonoBehaviour
 {
     private Renderer rend;
     private Color color;
-    private bool invincible = false;
+    private bool invincible;
     public int damage;
 
     void Start()
     {
+        invincible = false;
         rend = GetComponent<Renderer>();
         color = rend.material.color;
+        Physics2D.IgnoreLayerCollision(8, 10, false);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
