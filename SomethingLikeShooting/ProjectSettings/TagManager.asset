@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Borders
+  - Camera
+  - Interactable
+  - weapon
+  - weaponPoint
+  - Campfire
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Enemy
+  - Environment
+  - Player
+  - Campfire
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: shadow
+    uniqueID: 2897466167
+    locked: 0
+  - name: Player
+    uniqueID: 638079601
+    locked: 0
+  - name: Weapon
+    uniqueID: 2733887767
+    locked: 0
+  - name: Campfire
+    uniqueID: 1887576115
+    locked: 0
+  - name: Enemy
+    uniqueID: 1048034583
+    locked: 0
+  - name: Environment
+    uniqueID: 3163035737
+    locked: 0
